@@ -21,7 +21,7 @@ def get_text_messages(message):
         #bot.send_message(message.from_user.id, "no pic :(")
         directory = "!!pics"
         random_image = random.choice(os.listdir(directory))
-        with open ("!!pics"+"\\"+ random_image, "rb") as file:
+        with open ("!!pics"+"/"+ random_image, "rb") as file:
             bot.send_photo(message.from_user.id, photo = file)
     else:
         bot.send_message(message.from_user.id, ':/')
