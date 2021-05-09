@@ -1,7 +1,7 @@
 import telebot
 import random, os
-import datetime
-import pytz
+# import datetime
+# import pytz
 
 
 TOKEN ='1756123183:AAFjCiddoo8IiWy4xrqq7ebFrZcuzEYbbLw'
