@@ -4,12 +4,12 @@ import datetime
 import pytz
 
 
-# TOKEN ='1756123183:AAFjCiddoo8IiWy4xrqq7ebFrZcuzEYbbLw'
+TOKEN ='1756123183:AAFjCiddoo8IiWy4xrqq7ebFrZcuzEYbbLw'
 TIMEZONE = 'Europe/Kiev'
 
 P_TIMEZONE = pytz.timezone(TIMEZONE)
 
-# bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(TOKEN)
 
 
 
