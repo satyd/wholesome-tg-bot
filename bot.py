@@ -23,7 +23,7 @@ def get_text_messages(message):
         #random_image = random.choice(os.listdir(directory))
         #with open ("D:\z pic folder"+"\\"+ random_image, "rb") as file:
 <<<<<<< HEAD
-        #    bot.send_photo(message.from_user.id, photo = file)
+            #bot.send_photo(message.from_user.id, photo = file)
 =======
             #bot.send_photo(message.from_user.id, photo = file)
 >>>>>>> 5d2050b60cddef444a6d4e15a1b13408f3d195c9
