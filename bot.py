@@ -18,8 +18,9 @@ def get_text_messages(message):
     if message.text == "/start":
         bot.send_message(message.from_user.id, "to get wholesome, type /pic")
     elif message.text == "/pic":
-        directory = "D:\z pic folder"
-        random_image = random.choice(os.listdir(directory))
+        bot.send_message(message.from_user.id, "there have to be a picture :/")
+        #directory = "D:\z pic folder"
+        #random_image = random.choice(os.listdir(directory))
         with open ("D:\z pic folder"+"\\"+ random_image, "rb") as file:
             bot.send_photo(message.from_user.id, photo = file)
     else:
