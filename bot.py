@@ -28,10 +28,10 @@ def get_text_messages(message):
         with open ("!!memes"+"/"+ random_image, "rb") as file:
             bot.send_photo(message.from_user.id, photo = file)
     elif message.text == "/cursed":
-    directory = "!!cursed"
-    random_image = random.choice(os.listdir(directory))
-    with open ("!!cursed"+"/"+ random_image, "rb") as file:
-        bot.send_photo(message.from_user.id, photo = file)
+        directory = "!!cursed"
+        random_image = random.choice(os.listdir(directory))
+        with open ("!!cursed"+"/"+ random_image, "rb") as file:
+            bot.send_photo(message.from_user.id, photo = file)
     else:
         bot.send_message(message.from_user.id, 'no :/')
             
